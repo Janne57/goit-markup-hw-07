@@ -28,7 +28,34 @@
             <nav>
                 <div class="header-logo">
                     <a href="" class="logo">WEB<span class="logo-studio">STUDIO</span></a>
+                    <!-- <button type="button">
+                        <svg class="" width="32" height="22">
+                          <use href="./images/icons.svg#icon-Vector"></use>
+                          <use href=""></use>
+                        </svg>
+                    </button> -->
 
+                    <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                        <svg width="24" height="24" fill="none" viewBox="0 0 20 20">
+                            <!-- <use href="./images/icons.svg#icon-charm_menu-hamburger"></use> -->
+                            <!-- <use href="./images/icons.svg#url(#a)"></use> -->
+                            xmlns="http://www.w3.org/2000/svg">
+
+                            <g clip-path="url(#a)">
+                                <path stroke="#2E2F42" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                                    d="M1.348 20.043h29.538M1.348 10.735h29.538M1.348 1.428h29.538" />
+                            </g>
+                            <defs>
+                                <clipPath id="a">
+                                    <path fill="none" d="M0 0h32v22H0z" />
+                                </clipPath>
+                            </defs>
+
+                            <!-- <path fill-rule="evenodd"
+                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                clip-rule="evenodd"></path> -->
+                        </svg>
+                    </button>
 
                     <ul class="site-nav">
                         <li><a class="site-nav-link link current" href="./index.html">Studio</a></li>
@@ -56,7 +83,7 @@
             <div class="container">
                 <h2 hidden>Features</h2>
                 <ul class="section-item">
-                    <li>
+                    <li class="section-item-set">
                         <div class="feature-icon">
 
                             <svg class="" width="64" height="64">
@@ -68,7 +95,7 @@
                             creative solution.
                         </p>
                     </li>
-                    <li>
+                    <li class="section-item-set">
                         <div class="feature-icon">
                             <svg class="" width="64" height="64">
                                 <use href="./images/icons.svg#icon-clock"></use>
@@ -80,25 +107,27 @@
                             time.
                         </p>
                     </li>
-                    <li>
+                    <li class="section-item-set">
                         <div class="feature-icon">
                             <svg class="" width="64" height="64">
                                 <use href="./images/icons.svg#icon-diagram"></use>
                             </svg>
                         </div>
                         <h3 class="section-title-feature">Diligence</h3>
-                        <p class="text-p">Research and confirm brands that present the strongest digital growth
+                        <p class="text-p">Research and confirm brands that present the strongest digital
+                            growth
                             opportunities and minimize
                             risk.</p>
                     </li>
-                    <li>
+                    <li class="section-item-set">
                         <div class="feature-icon">
                             <svg class="" width="64" height="64">
                                 <use href="./images/icons.svg#icon-astronaut"></use>
                             </svg>
                         </div>
                         <h3 class="section-title-feature">Technologies</h3>
-                        <p class="text-p">Design practice focused on digital experiences. We bring forth a deep passion
+                        <p class="text-p">Design practice focused on digital experiences. We bring forth a
+                            deep passion
                             for problem-solving.
                         </p>
                     </li>
@@ -107,10 +136,10 @@
         </section>
 
         <!-- Section 2 -->
-        <section class="section top">
+        <section class="section topdo">
             <div class="container">
-                <h2 class="section-title letter">What are we doing</h2>
-                <ul class="card-set">
+                <h2 class="section-title-hide letter">What are we doing</h2>
+                <ul class="card-set-two">
                     <li class="card-item"><img src="./images/rectangle1.jpg" alt="Dashboard of monitor" width="360"
                             height="300"></li>
                     <li class="card-item"><img src="./images/rectangle2.jpg" alt="Four printscreens" width="360"
@@ -126,11 +155,14 @@
         <section class="section fon">
             <div class="container">
                 <h2 class="section-title">Our Team</h2>
-                <ul class="card-set">
+                <ul class="card-set-team">
                     <li class="card-item-team">
 
-                        <img class="img-margin" src="./images/team/product-designer.jpg" alt="Photo of Product Designer"
-                            width="264" height="260">
+                        <img srcset="./images/team/desk/img1_264.jpg 1x,
+                        ./images/team/desk/img1_528.jpg 2x" src="./images/team/desk/img1_264.jpg"
+                            alt="Photo of Product Designer" width="264" height="260">
+
+
                         <div class="card-content">
                             <h3 class="section-title-name">Mark Guerrero</h3>
                             <p class="section-p">Product Designer</p>
@@ -170,8 +202,9 @@
 
                     </li>
                     <li class="card-item-team">
-                        <img src="./images/team/front-devel.jpg" alt="Photo of Frontend Developer" width="264"
-                            height="260">
+                        <img srcset="./images/team/desk/img2_264.jpg 1x,
+                        ./images/team/desk/img2_528.jpg 2x" src="./images/team/desk/img2_264.jpg"
+                            alt="Photo of Frontend Developer" width="264" height="260">
                         <div class="card-content">
                             <h3 class="section-title-name">Tom Ford</h3>
                             <p class="section-p">Frontend Developer</p>
@@ -210,7 +243,9 @@
                         </div>
                     </li>
                     <li class="card-item-team">
-                        <img src="./images/team/marketing.jpg" alt="Photo of Marketing" width="264" height="260">
+                        <img srcset="./images/team/desk/img3_264.jpg 1x,
+                        ./images/team/desk/img3_528.jpg 2x" src="./images/team/desk/img3_264.jpg"
+                            alt="Photo of Marketing" width="264" height="260">
                         <div class="card-content">
                             <h3 class="section-title-name">Camila Garcia</h3>
                             <p class="section-p">Marketing</p>
@@ -249,7 +284,9 @@
                         </div>
                     </li>
                     <li class="card-item-team">
-                        <img src="./images/team/ul-designer.jpg" alt="Photo of UI Designer" width="264" height="260">
+                        <img srcset="./images/team/desk/img4_264.jpg 1x,
+                        ./images/team/desk/img4_528.jpg 2x" src="./images/team/desk/img4_264.jpg"
+                            alt="Photo of UI Designer" width="264" height="260">
                         <div class="card-content">
                             <h3 class="section-title-name">Daniel Wilson</h3>
                             <p class="section-p">UI Designer</p>
@@ -292,7 +329,7 @@
         </section>
 
         <!-- Section 4  Customers-->
-        <section class="section section-pad">
+        <section class="section">
             <div class="container">
                 <h2 class="section-title">Customers</h2>
                 <ul class="customers">
@@ -399,7 +436,8 @@
                     <div class="footer-form-base">
                         <div class="footer-form-sub">
                             <label class="footer-sub" for="user_email_foot">Subscribe</label>
-                            <input class="footer-sub-inp" type="email" name="user_email_foot" id="user_email_foot" placeholder="E-mail">
+                            <input class="footer-sub-inp" type="email" name="user_email_foot" id="user_email_foot"
+                                placeholder="E-mail">
                         </div>
                         <div class="footer-form-btn">
                             <button class="footer-sub-btn" type="submit">Subscribe</button>
@@ -452,16 +490,75 @@
                     </div>
                     <label class="form-group-agreement">
                         <input class="form-group-check" type="checkbox">
-                        <span class="form-group-desk">I accept the terms and conditions of the 
+                        <span class="form-group-desk">I accept the terms and conditions of the
                             <a class="form-group-link" href="">Privacy Policy</a></span>
-                        </label>
-                        <button class="btn-send" type="submit">Send</button>
+                    </label>
+                    <button class="btn-send" type="submit">Send</button>
                 </div>
             </form>
         </div>
     </div>
 
+    <!-- Mobile menu -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="menu-close-btn js-close-menu">
+            <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                <path fill-rule="evenodd"
+                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                    clip-rule="evenodd"></path>
+            </svg>
+        </button>
 
+        <ul class="mobile-menu">
+            <li><a class="mobile-link current" href="./index.html" class="link">Studio</a></li>
+            <li><a class="mobile-link mobile-link" href="./portfolio.html" class="link">Portfolio</a></li>
+            <li><a class="mobile-link mobile-link" href="" class="link">Contacts</a></li>
+        </ul>
+
+        <div class="mobile-menu-div">
+            <ul class="mobile-menu-link">
+                <li><a class="mobile-menu-tel" href="tel:+110001111111" class="link-contacts">+11 (000) 111-11-11</a></li>
+                <li><a class="mobile-menu-mail" href="mailto:info@devstudio.com" class="link-contacts">info@devstudio.com</a></li>
+            </ul>
+            <ul class="mobile-menu-socials">
+                <li>
+                    <a class="socials-link" href="https://www.instagram.com/" aria-label="Instagram" target="_blank"
+                        rel="noopener noreferrer">
+                        <svg class="socials-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a class="socials-link" href="https://www.twitter.com/" aria-label="Twitter" target="_blank"
+                        rel="noopener noreferrer">
+                        <svg class="" width="24" height="24">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a class="socials-link" href="https://uk-ua.facebook.com/" aria-label="Facebook" target="_blank"
+                        rel="noopener noreferrer">
+                        <svg class="" width="24" height="24">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg></a>
+                </li>
+                <li>
+                    <a class="socials-link" href="https://www.linkedin.com/" aria-label="Linkedin" target="_blank"
+                        rel="noopener noreferrer">
+                        <svg class="" width="24" height="24">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous"></script>
+    <script defer src="js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
 </body>
 
