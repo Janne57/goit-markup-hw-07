@@ -991,8 +991,7 @@ screen and (min-resolution: 2dppx) {
 .footer {
     padding-top: 96px;
     padding-bottom: 96px;
-    /* padding-left: 156px; */
-    max-height: auto;
+    /* max-height: auto; */
     background-color: var(--footer-bcg-color);
 }
 
